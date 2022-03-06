@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Bike</title>
+    <script src="https://kit.fontawesome.com/d5b9f0302a.js" crossorigin="anonymous"></script>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            align-items: center;
+            padding: 8px 12px;
+        }
+        body{
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .logo{
+            font-size: 20px;
+            color: white;
+        }
+        .list{
+            display: flex;
+            list-style:none;
+            padding:0;
+        }
+        .list li{
+            padding: 10px 20px;
+        }
+        .list li :hover{
+            background-color: rgb(70, 76, 77);
+            border-radius: 4px;
+        }
+        .img{
+            position: relative;
+            object-fit: fill;
+            opacity: 0.6;
+        }
+        .img .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="header">
+        <div class="logo">
+            <h1>
+                <i class="fa-solid fa-bicycle"></i>
+                <a href="roadbike.html">Road Bike</a>
+            </h1>
+        </div>
+            <ul class="list">
+                <li><a href="Specialized.html">Specialized</a></li>
+                <li><a href="BMC.html">BMC</a></li>
+                <li><a href="Trek.html">Trek</a></li>
+                <li><a href="Bianchi.html">Bianchi</a></li>
+            </ul>
+    </nav>
+    <div class="img">
+    <img src="roadbike.jpg" width="100%"> 
+        <div class="text" style="text-align: center;">
+            <h1>"Pain is temporary. Quitting lasts forever."
+                <br>Lance Armstrong 
+            </h1>
+        </div>
+    </div>
+</body>
+</html>
